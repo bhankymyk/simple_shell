@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * shell - simple shell
@@ -60,7 +60,7 @@ void checkAndGetLine(config *build)
 void stripComments(char *str)
 {
 	register int i = 0;
-	_Bool notFirst = false;
+	bool notFirst = false;
 
 	while (str[i])
 	{

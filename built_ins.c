@@ -1,11 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * findBuiltIns - validates if command is builtin and executes
  * @build: input build
  * Return: true if found, false if not
  */
-_Bool findBuiltIns(config *build)
+bool findBuiltIns(config *build)
 {
 	register int i = 0;
 	type_b getBuiltIns[] = {
